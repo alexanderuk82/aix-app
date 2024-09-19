@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ux_analyses",
+  "info": {
+    "singularName": "ux-analysis",
+    "pluralName": "ux-analyses",
+    "displayName": "UXAnalysis",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "frustration": {
+      "type": "text"
+    },
+    "goals": {
+      "type": "text"
+    },
+    "recommendations": {
+      "type": "text"
+    },
+    "documents": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "needs": {
+      "type": "text"
+    }
+  }
+}

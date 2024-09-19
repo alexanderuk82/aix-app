@@ -1,0 +1,76 @@
+{
+  "kind": "collectionType",
+  "collectionName": "interviews",
+  "info": {
+    "singularName": "interview",
+    "pluralName": "interviews",
+    "displayName": "Interview",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "file": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "company": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::company.company",
+      "inversedBy": "interviews"
+    },
+    "textInterview": {
+      "type": "text"
+    },
+    "Interviewed": {
+      "type": "string"
+    },
+    "product": {
+      "type": "string"
+    },
+    "idInterview": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "uxAnalysis": {
+      "type": "json"
+    },
+    "user_name": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::user-name.user-name",
+      "inversedBy": "interviews"
+    },
+    "status": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::status.status",
+      "inversedBy": "interviews"
+    },
+    "uxAtomic": {
+      "type": "json"
+    },
+    "chat": {
+      "type": "json"
+    }
+  }
+}
