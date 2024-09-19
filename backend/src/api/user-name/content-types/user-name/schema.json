@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_names",
+  "info": {
+    "singularName": "user-name",
+    "pluralName": "user-names",
+    "displayName": "userName",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "userName": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": false
+    },
+    "avatar": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "interviews": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::interview.interview",
+      "mappedBy": "user_name"
+    },
+    "statuses": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::status.status",
+      "mappedBy": "user_name"
+    },
+    "companies": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::company.company",
+      "mappedBy": "user_name"
+    }
+  }
+}
