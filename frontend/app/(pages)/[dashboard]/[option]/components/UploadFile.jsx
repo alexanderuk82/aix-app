@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { useToast } from "@/components/ui/use-toast";
 import { FileAudio2, Trash2 } from "lucide-react";
 import Animation from "./Animation";
-import PasteText from "./PasteText";
+import PasteText from "./PasteText.jsx";
 import { CloudUpload } from "lucide-react";
 
 const UploadAudio = () => {
