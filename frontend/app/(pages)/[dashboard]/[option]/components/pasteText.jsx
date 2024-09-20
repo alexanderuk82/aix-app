@@ -19,7 +19,7 @@ import {
 } from "@/components/ui/command";
 import { Button } from "@/components/ui/button";
 
-const PasteText = ({ transcription }) => {
+const pasteText = ({ transcription }) => {
 	const options = [
 		{ value: "all", label: "All" },
 		{ value: "frustration", label: "Frustration" },
@@ -135,4 +135,4 @@ const PasteText = ({ transcription }) => {
 	);
 };
 
-export default PasteText;
+export default pasteText;
