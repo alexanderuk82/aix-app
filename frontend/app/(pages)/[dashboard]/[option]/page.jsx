@@ -12,7 +12,7 @@ import {
 } from "@/components/ui/breadcrumb";
 
 import TitleSection from "../_components/titleSection/TitleSection";
-import PasteText from "./components/PasteText";
+import PasteText from "./components/PasteText.jsx";
 import UploadFile from "./components/UploadFile";
 
 // const OptionPage = ({ params }) => {
