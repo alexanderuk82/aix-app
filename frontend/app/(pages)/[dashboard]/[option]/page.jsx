@@ -13,7 +13,7 @@ import {
 
 import TitleSection from "../_components/titleSection/TitleSection";
 import PasteText from "./components/PasteText";
-import UploadFile from "./components/uploadFile";
+import UploadFile from "./components/UploadFile";
 
 // const OptionPage = ({ params }) => {
 // 	console.log(params);
