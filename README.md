@@ -37,8 +37,8 @@ AIX offers the following key functionalities:
 
 Here are some visual examples of how the AIX platform works:
 
-- **Dashboard Overview**:
-  ![Dashboard](./intro.gif)
+- **Introduction**:
+  ![Intro](./intro.gif)
 
 - **File Upload Process**:
  
