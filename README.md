@@ -41,13 +41,28 @@ Here are some visual examples of how the AIX platform works:
 
   <img src="./intro.gif" alt="Intro" width="90%" height="auto" />
 
-- **File Upload Process**:
+- **Registration**:
+
+  <img src="./registration.gif" alt="Intro" width="90%" height="auto" />
  
 
 - **Results Display**:
 
+  <img src="./results.gif" alt="Intro" width="90%" height="auto" />
+
 
 - **Chat Functionality**:
+
+  <img src="./chat-saving.gif" alt="Intro" width="90%" height="auto" />
+
+
+- **Editing**:
+
+  <img src="./editing.gif" alt="Intro" width="90%" height="auto" />
+
+- **Download**:
+
+<img src="./download-pdf.gif" alt="Intro" width="90%" height="auto" />
 
 
 ## Installation
