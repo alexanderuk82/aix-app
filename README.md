@@ -39,7 +39,7 @@ Here are some visual examples of how the AIX platform works:
 
 - **Introduction**:
 
-  <img src="./intro.gif" alt="Intro" width="500" height="auto" />
+  <img src="./intro.gif" alt="Intro" width="90%" height="auto" />
 
 - **File Upload Process**:
  
