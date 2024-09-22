@@ -32,6 +32,22 @@ AIX offers the following key functionalities:
 
 - **Audio and Text Uploads**: You can upload interviews via text or audio:
   - **Audio Processing**: Audio is transcribed by Assembly AI into text, and then the text is passed to OpenAI (ChatGPT) to generate a new response based on the user's audio submission.
+ 
+  ## Visualization
+
+Here are some visual examples of how the AIX platform works:
+
+- **Dashboard Overview**:
+  ![Dashboard](./intro.gif)
+
+- **File Upload Process**:
+ 
+
+- **Results Display**:
+
+
+- **Chat Functionality**:
+
 
 ## Installation
 
@@ -72,11 +88,6 @@ Once the project is running, you can start conducting interviews by either uploa
 - **Audio Upload**: Audio files are transcribed using Assembly AI, and the transcribed text is processed by OpenAI to generate interview responses.
 - **Text Upload**: Submit text-based interviews directly, and OpenAI will generate responses based on the provided text.
 
-## Visualization
-
-Here are some visual examples of how the AIX platform works:
-
-- **GIFs and images**: Include visuals showcasing the key functionalities, such as the interview submission process and how responses are generated.
 
 ## Technologies Used
 
