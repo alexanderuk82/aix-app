@@ -5,9 +5,10 @@ module.exports = ({ env }) => [
   {
     name: "strapi::cors",
     config: {
-      origin: ["https://aix-app.vercel.app/"], // Reemplaza con tu dominio de Vercel
+      origin: ["https://aix-app.vercel.app"], // Reemplaza con tu dominio de Vercel
       methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
       credentials: true,
+      headers: ["Content-Type", "Authorization", "Origin", "Accept"],
     },
   },
   "strapi::poweredBy",
