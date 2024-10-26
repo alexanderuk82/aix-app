@@ -12,8 +12,6 @@ const axiosClient = axios.create({
 	}
 });
 
-//Post and new UX designer on strapi backend
-
 const postNewUXDesigner = (data) => axiosClient.post("/user-names", data);
 
 //Post New Interview on strapi backend
