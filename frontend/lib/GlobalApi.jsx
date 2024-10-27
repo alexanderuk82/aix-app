@@ -3,6 +3,8 @@ import { systemPrompt, userPrompt } from "./data";
 import { systemPromptAtomic, userPromptAtomic } from "./atomicData";
 import { systemPromptChat, userPromptChat } from "./chatData";
 
+// get API key from .env file PRODUCTION
+
 const API_KEY = process.env.NEXT_PUBLIC_STRAPI_API_KEY;
 
 const axiosClient = axios.create({
