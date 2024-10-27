@@ -21,7 +21,7 @@ import axios from "axios";
 // 		"Content-Type": "application/json"
 // 	}
 // });
-
+const API_KEY = process.env.NEXT_PUBLIC_STRAPI_API_KEY;
 const axiosClient = axios.create({
 	baseURL: process.env.NEXT_PUBLIC_STRAPI_API_URL,
 	headers: {
